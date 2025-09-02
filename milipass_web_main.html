@@ -1,0 +1,2004 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>milipass_1_Web_main</title>
+	<!-- BEGIN INCLUDE HEAD -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="HandheldFriendly" content="true">
+	<!-- *true: 모바일용(화면크기조정), *false: Desktop에 최적화된 Html 사용 -->
+	<meta name="format-detection" content="telephone=no">
+	<!-- ios 자동링크방지 -->
+	<link rel="stylesheet" href="./assets/new_assets/css/common.css">
+	<link rel="stylesheet" href="./assets/new_assets/css/layout.css">
+	<link rel="stylesheet" href="./assets/new_assets/css/sub_layout.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<!-- 왼쪽 상단 메인헤더 로고 및 바로가기 스위치버튼 -->
+			<div class="home_btn_box">
+				<a href="./milipass_web_main.html" class="main_home_btn">
+					<img src="./assets/new_assets/images/common/ksica_logo.png" alt="KSICA 로고">
+				</a>
+				<a href="./milipass_web_main.html" class="mili_home_btn">
+					<img src="./assets/new_assets/images/common/MILIPASS_logo.png" alt="MILIPASS 로고">
+				</a>
+				<div class="mli_kon_btn_box">
+					<a href="./milipass_web_main.html" class="mili_btn switch_on"><span>MILIPASS</span></a>
+					<a href="./konpass_1_web_main.html" class="kon_btn"><span>KOnPASS</span></a>
+				</div> 
+			</div>
+			<!-- 오른쪽 상단 회사소개 -->
+			<ul class="company_inf_nav">
+				<li><a href="./konpass_company_web_info.html">회사소개</a></li>
+				<li><a href="./konpass_inquiry.html">제휴문의</a></li>
+				<li><a href="./konpass_notice1_list.html">공지사항</a></li>
+				<li><a href="#"><span>인재영입</span></a></li>
+			</ul>
+			<div class="mobil_meue_box">
+				<img src="./assets/new_assets/images/common/hamburger_menu.svg" alt="모바일 전체 메뉴">
+			</div>
+		</header>
+
+		<nav class="mil_content_catal">
+			<ul>
+				<li class="select_cart">전체</li>
+				<li>서비스 소개</li>
+				<li>혜택</li>
+				<li>제휴</li>
+				<li>뉴스</li>
+				<li class="sol_cart sols">육군</li>
+				<li class="sol_cart sols">해군</li>
+				<li class="sol_cart sols">해병대</li>
+				<li class="fav_cart">자주묻는질문</li>
+			</ul>
+		</nav>
+
+		<section class="scroll_content">
+			<div class="main_scroll_cont">
+				<div class="gr_main_box">
+					<div onclick="popup_m2();">
+						<img src="./assets/new_assets/images/banner/main_banner_3.png" class="web_default" alt="어서와 밀리패스는 처음이지? PC">
+						<img src="./assets/new_assets/images/banner/main_banner_3.png" class="banner_1024" alt="어서와 밀리패스는 처음이지? 타블렛">
+						<img src="./assets/new_assets/images/banner/main_banner_2_mobile.png" class="banner_640" alt="어서와 밀리패스는 처음이지? 모바일">
+					</div>
+				</div>
+
+				<div class="gr_item secret" onclick="popup15();">
+					<div class="banner_common banner_item1" >
+						<div class="text_box">
+							<h3>우리부대질문답변</h3>
+							<p>우리부대<br>
+							궁금한 이야기</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner16.png" alt="우리부대 궁금한 이야기">
+					</div>
+				</div>
+
+				<div class="gr_item skt" onclick="popup31();">
+					<img src="./assets/new_assets/images/banner/skt_banner.png" alt="SKT 배너">
+					<img src="./assets/new_assets/images/banner/skt_banner_m.png" alt="SKT 모바일 배너">
+				</div>
+
+				<div class="gr_item army" onclick="popup46();">
+					<div class="banner_common army_banner">
+						<div class="text_box">
+							<h3>육군 서비스</h3>
+							<p>육군 장병의<br>
+							 밀리해스 혜택</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/army_logo.png" alt="육군 로고">
+					</div>
+				</div>
+
+				<div class="gr_item navy" onclick="popup47();">
+					<div class="banner_common banner_item1">
+						<div class="text_box">
+							<h3>해군 서비스</h3>
+							<p>해군 장병의<br>
+							밀리패스 혜택</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/navy_logo.png" alt="해군 로고">
+					</div>
+				</div>
+
+				<div class="gr_item marine" onclick="popup48();">
+					<div class="banner_common banner_item2">
+						<div class="text_box">
+							<h3>해병대 서비스</h3>
+							<p style="color:#FAFF00;">해병대 장병의<br>
+							 밀리패스 혜택</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/marine_logo.png" alt="해병대 로고">
+					</div>
+				</div>
+
+				<div class="gr_item chatbot" onclick="popup2('popup2');">
+					<div class="open_bg">
+						<span class="open_t">오픈 예정</span>
+					</div>
+					<div class="banner_common banner_item3">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p style="color:#333;">24시간 <span class="mobile_none">무엇이든</span><br class="mobile_none">
+							 <span class="dp_none">아르미에게</span> <span class="line_br">물어보세요!</span></p>
+						</div>
+						<img src="./assets/new_assets/images/banner/chat_bot_arumi.png" alt="챗봇에게 물어보세요 이미지">
+					</div>
+				</div>
+
+				<div class="gr_item ybm" onclick="popup3();">
+					<div class="banner_common banner_item4">
+						<div class="text_box">
+							<h3>밀리패스 혜택</h3>
+							<p>토익, 어학, 서적 등<br>
+							YBM 최대 50% 할인</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner4.png" alt="YBM 최대 50% 할인">
+					</div>
+				</div>
+
+				<div class="gr_item uniform" onclick="popup4();">
+					<div class="open_bg">
+						<span class="open_t">오픈 예정</span>
+					</div>
+					<div class="banner_common banner_item5">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p style="color:#333;">육군 간부 전용<br>
+							피복 쇼핑몰 오픈!!</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner5.png" alt="피복 쇼핑몰 오픈">
+					</div>
+				</div>
+
+				<div class="gr_item meal_ticket" onclick="popup5();">
+					<div class="banner_common banner_item6">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p style="color:#333;">미리 구매해서 쓰는<br>
+							모바일 식권</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner6.png" alt="모바일 식권">
+					</div>
+				</div>
+
+				<div class="gr_item vacation" onclick="popup6();">
+					<div class="banner_common banner_item7">
+						<div class="text_box">
+							<h3>군  서비스</h3>
+							<p>스마트폰에서 보는<br>
+							휴가 확인서</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner7.png" alt="휴가 확인서">
+					</div>
+				</div>
+
+				<div class="gr_item drive" onclick="popup7();">
+					<div class="banner_common banner_item8">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p style="color:#333;">군 운전경력 증명서<br>
+							확인하세요</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner8.png" alt="군 운전경력 증명서">
+					</div>
+				</div>
+
+				<div class="gr_item bus" onclick="popup8();">
+					<div class="banner_common banner_item9">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p>교통비 지원<br>
+							후급증 버스 예약</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner9.png" alt="후급증 버스 예약">
+					</div>
+				</div>
+
+				<div class="gr_item salary" onclick="popup9();">
+					<div class="banner_common banner_item10">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p>매달 확인하는<br>
+							급여 명세 확인서 </p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner10.png" alt="급여 명세 확인서">
+					</div>
+				</div>
+
+				<div class="gr_item certification" onclick="popup10();">
+					<div class="banner_common banner_item11">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p>내 폰에서 확인하는<br>
+							신분인증 시스템</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner11.png" alt="신분인증 시스템">
+					</div>
+				</div>
+
+				<div class="gr_item train" onclick="popup11();">
+					<div class="banner_common banner_item12">
+						<div class="text_box">
+							<h3>밀리패스 혜택</h3>
+							<p>기차 예약<br>
+							최대 20% 할인</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner12.png" alt="기차 예약">
+					</div>
+				</div>
+
+				<div class="gr_item glasses" onclick="popup12();">
+					<div class="banner_common banner_item13">
+						<div class="text_box">
+							<h3>육군 서비스</h3>
+							<p>육군 안경 바우처<br>
+							포인트 전환 사용</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/test.png" alt="포인트 전환 사용">
+					</div>
+				</div>
+
+				<div class="gr_item shopping" onclick="popup13();">
+					<div class="banner_common banner_item14">
+						<div class="text_box">
+							<h3>밀리패스 혜택</h3>
+							<p>인터넷 최저가 쇼핑<br>
+							밀리패스 전용 복지몰</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner14.png" alt="밀리패스 전용 복지몰">
+					</div>
+				</div>
+
+				<div class="gr_item business_trip" onclick="popup14();">
+					<div class="banner_common banner_item15">
+						<div class="text_box">
+							<h3>군 서비스</h3>
+							<p style="color:#333;">출장 업무 수행을 위한<br>
+							출장 확인서</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner15.png" alt="출장 확인서">
+					</div>
+				</div>
+
+				<div class="gr_item secret" onclick="popup15();">
+					<div class="banner_common banner_item16">
+						<div class="text_box">
+							<h3>우리부대질문답변</h3>
+							<p>우리부대<br>
+							궁금한 이야기</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner16.png" alt="우리부대 궁금한 이야기">
+					</div>
+				</div>
+
+				<div class="gr_item comunity" onclick="popup16();">
+					<div class="banner_common banner_item17">
+						<div class="text_box">
+							<h3>우리가족끼리 속닥속닥</h3>
+							<p>댓글로 나누는<br>
+							가족통신</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner17.png" alt="댓글로 나누는 가족통신">
+					</div>
+				</div>
+
+				<div class="gr_item user_join" onclick="popup17();">
+					<div class="banner_common banner_item18">
+						<div class="text_box">
+							<h3>가입방법</h3>
+							<p style="color:#333;">밀리패스이렇게<br>
+							가입하세요.<br>
+							<span class="point_text" style="color:#835EF3;">장병,군무원 및 예비군</span></p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner18.png" alt="밀리패스 이렇게 가입하세요.">
+					</div>
+				</div>
+
+				<div class="gr_item family_join" onclick="popup18();">
+					<div class="banner_common banner_item19">
+						<div class="text_box">
+							<h3>가입방법</h3>
+							<p style="color:#333;">밀리패스 가족가입<br><span style="color:#000;">이렇게 하세요.</span><br>
+							<span class="point_text" style="color:#DD2FAC;">장병,군무원의 가족</span></p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner19.png" alt="밀리패스 이렇게 가입하세요.">
+						<img src="./assets/new_assets/images/banner/icon_banner19_2.png" alt="밀리패스 이렇게 가입하세요.">
+					</div>
+				</div>
+
+				<div class="gr_item military_personnel" onclick="popup19();">
+					<div class="banner_common banner_item20">
+						<div class="text_box">
+							<h3>군무원혜택</h3>
+							<p style="color:#333;">군무원의<br>
+							혜택 총정리!!</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner20.png" alt="군무원의 혜택 총정리">
+					</div>
+				</div>
+
+				<div class="gr_item reserve_service">
+					<div class="banner_common banner_item21" onclick="popup20();">
+						<div class="text_box">
+							<h3>장병혜택</h3>
+							<p style="color:#333;">예비역의<br>
+							혜택 총정리!!</p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner21.png" alt="예비역의 혜택 총정리!!">
+					</div>
+				</div>
+
+				<div class="gr_item soldier_family">
+					<div class="banner_common banner_item22" onclick="popup21();">
+						<div class="text_box">
+							<h3>장병혜택</h3>
+							<p>가족의<br class="mo_block">
+							혜택 총정리<br>
+							<span class="point_text" style="color:#FFF27E;">장병,군무원의 가족</span></p>
+						</div>
+						<img src="./assets/new_assets/images/banner/icon_banner22.png" class="web_default" alt="가족의 혜택 총정리">
+						<img src="./assets/new_assets/images/banner/icon_banner22_m.png" class="banner_640" alt="가족의 혜택 총정리">
+					</div>
+				</div>
+			</div>
+
+			<div class="sub_scroll_cont">
+				<div class="user_current_situation_box">
+					<div class="situation_inf">
+						<img src="./assets/new_assets/images/common/thumbs_up_like.png" alt="좋아요 아이콘">
+						<p>밀리패스 회원가입현황</p>
+					</div>
+					<h3>548,509<span>(명)</span></h3>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item1" onclick="popup_sub_30();">
+						<div class="text_box">
+							<span><b>&bull; </b>밀리패스회원</span>
+							<p>밀리패스 가입 대상<br>회원 유형 총정리</p>
+						</div>
+						<div class="icon_box">
+							<span>가족가입안내</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu1.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item2" onclick="popup_sub_23();">
+						<div class="text_box">
+							<span><b>&bull; </b>가족회원가입</span>
+							<p>가족정보 등록 언제<br> 어떻게 해야 하죠?</p>
+						</div>
+						<div class="icon_box">
+							<span>가족가입안내</span>
+							<img src="./assets/new_assets/images/menu/fluent-mdl2_family.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item3" onclick="popup_sub_24();">
+						<div class="text_box">
+							<span><b>&bull; </b>가입단계 오류</span>
+							<p>밀리패스 회원 가입이 <br>안되시나요?</p>
+						</div>
+						<div class="icon_box">
+							<span>본인/가족의 가입</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu2.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item4" onclick="popup_sub_25();">
+						<div class="text_box">
+							<span><b>&bull; </b>문의처</span>
+							<p>혜택별 문의처를<br>확인해 주세요.</p>
+						</div>
+						<div class="icon_box">
+							<span>상담문의처 안내</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu3.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item5" onclick="popup_sub_26();">
+						<div class="text_box">
+							<span><b>&bull; </b>앱 실행이 안될 때</span>
+							<p>“에뮬레이터환경”<br class="mobile_none">이라는 팝업이<br>뜬다구요?</p>
+						</div>
+						<div class="icon_box">
+							<span>앱 보안 정책</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu4.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item6" onclick="popup_sub_27();">
+						<div class="text_box">
+							<span><b>&bull; </b>신분증 사진 변경</span>
+							<p>신분증 사진을<br>변경하고 싶어요.</p>
+						</div>
+						<div class="icon_box">
+							<span>가족가입안내</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu5.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item7" onclick="popup_sub_28();">
+						<div class="text_box">
+							<span><b>&bull; </b>가족회원혜택</span>
+							<p>영외PX(군마트) <br>밀리패스 이용방법</p>
+						</div>
+						<div class="icon_box">
+							<span>가족가입안내</span>
+							<img src="./assets/new_assets/images/menu/icon_side_menu6.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="sub_bn_common sub_item8" onclick="popup_sub_29();">
+						<div class="text_box">
+							<span><b>&bull; </b>밀리패스 활용</span>
+							<p>밀리패스는 언제까지<br>사용할 수 있나요?</p>
+						</div>
+						<div class="icon_box">
+							<span>사용안내</span>
+							<img src="./assets/new_assets/images/menu/ant-design_reload-time-outline.png" alt="가족가입안내 이미지">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 모바일 메뉴 -->
+		<div class="popup_bg"></div>
+		<div class="modal_padding" id="first_time_mlipass">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>밀리패스 소개</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-image:url(assets/new_assets/images/temp/first_time_mlipass.png); background-repeat: no-repeat; background-size:cover; background-position: center;">
+					<!-- <div style="background-image: url(assets/new_assets/images/temp/millipass_popup_text.png); background-repeat: no-repeat; background-size:contain; background-position: center; width:20%; height:100%;"></div> -->
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_1.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_2.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_3.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_4.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_5.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_6.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_7.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_8.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/first_time_mlipass_ct_9.png" alt="밀리패 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 팝업 -->
+		<div class="popup_bg2"></div>
+		<div class="modal_padding" id="popup2">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>챗봇 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#F9C5A8">
+					<img src="./assets/new_assets/images/banner/chatbot_icon.png" class="mil_popup_title2" alt="휴가 신청 이미지">
+					<h3 style="color:#333;">24시간 무엇이든 챗봇에게 물어보세요!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_2_1.png" alt="챗봇">
+						<img src="./assets/new_assets/images/temp/w_sub_2_2.png" alt="챗봇">
+						<img src="./assets/new_assets/images/temp/w_sub_2_3.png" alt="챗봇">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup3">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>교육 제휴 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#010051">
+					<img src="./assets/new_assets/images/banner/icon_banner4.png" class="mil_popup_title3" alt="교육 제휴 서비스 이미지">
+					<h3>교육 제휴 서비 스토익, 어학, 서적 등 YBM 최대 50% 할인</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/konpass_w_sub_3.png" alt="휴가 확인서 설명 이미지">
+					</div>
+
+					<div class="text_box">
+						<h3><img src="./assets/new_assets/images/temp/konpass_w_sub_3_icon.png" alt="qbm 로고">YBM 교육 50% 할인 혜택</h3>
+						<p>밀리패스 회원에게 제공되는 교육 할인 서비스입니다.<br><span>토익시험 접수 및 온라인 강의 자격증, 교양서적,</span> 어린이 도서, 자기계발, 취업 관련 교육까지<br><span>현역 장병들에게 50% 할인됩니다.<br><br><br></span>기간. 사용방법,혜택대상</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup4">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 간부 전용 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#C9FDB0">
+					<img src="./assets/new_assets/images/banner/icon_banner5.png" class="mil_popup_title4" alt="피복 쇼핑몰 이미지">
+					<h3 style="color:#333;">군 간부 전용 피복 쇼핑몰 오픈!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_4_1.png" alt="간부 피복">
+						<img src="./assets/new_assets/images/temp/w_sub_4_2.png" alt="간부 피복">
+						<img src="./assets/new_assets/images/temp/w_sub_4_3.png" alt="간부 피복">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup5">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 간부 전용 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FEE044">
+					<img src="./assets/new_assets/images/banner/icon_banner6.png" class="mil_popup_title5" alt="모바일 식권 이미지">
+					<h3 style="color:#333;">미리 구매해서 쓰는 모바일 식권</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/food_pay_200.png" alt="모바일 식권 설명 이미지">
+						<img src="./assets/new_assets/images/temp/food_pay_201.png" alt="모바일 식권 설명 이미지">
+						<img src="./assets/new_assets/images/temp/food_pay_202.png" alt="모바일 식권 설명 이미지">
+						<img src="./assets/new_assets/images/temp/food_pay_203.png" alt="모바일 식권 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup6">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 간부 전용 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner">
+					<img src="./assets/new_assets/images/temp/vacation_bg.png" class="mil_popup_title6" alt="휴가 신청 이미지">
+					<h3>스마트폰에서 보는 휴가 확인서</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_3_img_box">
+						<img src="./assets/new_assets/images/temp/vacation_ct_img1.png" alt="휴가 확인서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/vacation_ct_img2.png" alt="휴가 확인서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/vacation_ct_img3.png" alt="휴가 확인서 설명 이미지">
+					</div>
+
+					<div class="text_box">
+						<h3>휴가 확인서</h3>
+						<p>포상휴가, 정기휴가 등등의 <span>승인된 휴가는 자동으로 밀리패스 앱에 생성됩니다.</span><br>
+						휴가 확인서를 선택하면 휴가 기간에 이용할 <span>기차를 예매하실 수 있습니다.</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup7">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#EDFFA3">
+					<img src="./assets/new_assets/images/banner/icon_banner8.png" class="mil_popup_title7" alt="휴가 신청 이미지">
+					<h3 style="color:#333">군 운전경력 증명서 확인하세요</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/drive_popup_temp.png" alt="군 운전경력 증명서 이미지">
+					</div>
+
+					<div class="text_box">
+						<h3>운전경력 확인서</h3>
+						<p>운전병으로 전역을 하면 보험할인이나<span> 사회면허 갱신을 하게 되는데 그것을 위해서는</span> 전역 전에 <br>군 운전경력확인서를 발급 받아야 합니다.<br><span>기존의 복잡한 절차를 밀리패스를 통해</span> 간편하게 발급 받을 수 있습니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup8">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#F88D63">
+					<img src="./assets/new_assets/images/banner/icon_banner9.png" class="mil_popup_title8" alt="휴가 신청 이미지">
+					<h3>교통비 지원 후급증 버스 예약</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/bus_popup_16.png" alt="후급증 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bus_popup_176.png" alt="후급증 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bus_popup_177.png" alt="후급증 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bus_popup_178.png" alt="후급증 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bus_popup_199.png" alt="후급증 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup9">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#B8ACFF">
+					<img src="./assets/new_assets/images/banner/icon_banner10.png" class="mil_popup_title9" alt="급여 명세 확인서 아이콘">
+					<h3>매달 확인하는 급여 명세 확인서</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/cri_popup_temp.png" alt="급여 명세 확인서 이미지" style="position:relative; left:5%;">
+					</div>
+
+					<div class="text_box">
+						<h3>급여명세 확인서</h3>
+						<p>이번달 급여 지급 내역을 <span>밀리패스 앱에서 미리(1~2일전) 확인할 수 있습니다.</span><br>원하는 달의 급여 지급내역도 함께 확인하세요.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup10">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#E8657D">
+					<img src="./assets/new_assets/images/banner/icon_banner11.png" class="mil_popup_title10" alt="신분인증 아이콘">
+					<h3>내 폰에서 확인하는 신분인증 시스템</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_2_img_box">
+						<img src="./assets/new_assets/images/temp/APPMYW0101.png" alt="신분인증 모바일 화면 이미지">
+						<img src="./assets/new_assets/images/temp/APPMYW0203.png" alt="신분인증 모바일 화면 이미지">
+					</div>
+
+					<div class="text_box">
+						<h3>밀리패스 신분증</h3>
+						<p><span>밀리패스의 신분증은 은행 공인인증서와</span><span>동일한 인증서가 발급되는 시스템입니다</span><br><br>
+
+							<span>은행대출 신청, 복지시설 등록, 군인가족 신분증 발급,</span> 병 적금통장 개설, 대학 복학용 서류,<br>
+							<span>자격증 응시서류 등 군 복무확인을 위한</span> 제출서류를 대체하여 활용 가능합니다.<br><br>
+
+							<span>장병 및 군무원의 가족은</span><br>
+							<span>군인 가족은 밀리패스 신분증으로</span> 복지시설(영외PX, 군 숙소)/부대출입증으로 <span>활용이 가능합니다.</span><br><br>
+
+							<span>밀리패스 앱은</span> 신분증 대체로 활용 가능한 모바일 신분을 증명합니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup11">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FFB627">
+					<img src="./assets/new_assets/images/temp/train_popup_title.png" class="mil_popup_title11" alt="신분인증 아이콘">
+					<h3>기차 예약 최대 20% 할인</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/train_popup_temp_11.png" alt="기차 예약 설명 이미지">
+						<img src="./assets/new_assets/images/temp/train_popup_temp_12.png" alt="기차 예약 설명 이미지">
+						<img src="./assets/new_assets/images/temp/train_popup_temp_13.png" alt="기차 예약 설명 이미지">
+						<img src="./assets/new_assets/images/temp/train_popup_temp_14.png" alt="기차 예약 설명 이미지">
+						<img src="./assets/new_assets/images/temp/train_popup_temp_15.png" alt="기차 예약 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup12">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#79DBC0">
+					<img src="./assets/new_assets/images/temp/glass_popup_title.png" class="mil_popup_title12" alt="신분인증 아이콘">
+					<h3>안경바우처 포인트 전환 사용</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/glass_popup_temp_2.png" alt="바우처 포인트 설명 이미지">
+						<!-- 이미지 수정 요청 -->
+						<img src="./assets/new_assets/images/temp/glass_popup_temp_3.png" alt="바우처 포인트 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup13">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#8F9BFF">
+					<img src="./assets/new_assets/images/banner/icon_banner14.png" class="mil_popup_title13" alt="쇼핑 아이콘">
+					<h3>인터넷 최저가 쇼핑 밀리패스 전용 복지몰</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="responsive_img_box">
+						<div class="left_items">
+							<img src="./assets/new_assets/images/temp/Frame_1.png" alt="아이템1">
+							<img src="./assets/new_assets/images/temp/Frame_2.png" alt="아이템2">
+							<img src="./assets/new_assets/images/temp/Frame_3.png" alt="아이템3">
+							<img src="./assets/new_assets/images/temp/Frame_4.png" alt="아이템4">
+							<img src="./assets/new_assets/images/temp/Frame_5.png" alt="아이템5">
+							<img src="./assets/new_assets/images/temp/Frame_6.png" alt="아이템6">
+						</div>
+						<img src="./assets/new_assets/images/temp/popup_temp_13.png" alt="밀리패스 복지몰 이미지">
+						<div class="right_items">
+							<img src="./assets/new_assets/images/temp/Frame_7.png" alt="아이템7">
+							<img src="./assets/new_assets/images/temp/Frame_8.png" alt="아이템8">
+							<img src="./assets/new_assets/images/temp/Frame_9.png" alt="아이템9">
+							<img src="./assets/new_assets/images/temp/Frame_10.png" alt="아이템10">
+							<img src="./assets/new_assets/images/temp/Frame_11.png" alt="아이템11">
+							<img src="./assets/new_assets/images/temp/Frame_12.png" alt="아이템12">
+						</div>
+					</div>
+
+					<div class="text_box">
+						<h3>밀리패스 회원 전용 복지몰</h3>
+						<p>최저가 쇼핑부터 건강, 교육, 문화, 여행, 레저,<span>생활 편의시설까지 모두 이용 가능한</span><br>밀리패스 전용 할인 쇼핑몰</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup14">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 간부 전용 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FFD5E2">
+					<img src="./assets/new_assets/images/banner/icon_banner15.png" class="mil_popup_title14" alt="지도 아이콘">
+					<h3 style="color:#333;">출장 업무 수행을 위한 출장 확인서</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_3_img_box">
+						<img src="./assets/new_assets/images/temp/business_trip_popup_temp_1.png" alt="출장 확인서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/business_trip_popup_temp_2.png" alt="출장 확인서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/business_trip_popup_temp_3.png" alt="출장 확인서 설명 이미지">
+					</div>
+
+					<div class="text_box">
+						<h3>출장 확인서</h3>
+						<p><span>출장 업무를 수행하기 위해 승인된 출장 신청서는</span>자동으로 밀리패스 앱에 생성됩니다.<br>
+						<span>출장 확인서를 선택하면 출장 기간에 이용할</span> 기차를 예매하실 수 있습니다.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup15">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#8483FF">
+					<img src="./assets/new_assets/images/banner/icon_banner16.png" class="mil_popup_title15" alt="지도 아이콘">
+					<h3>우리부대 궁금한 이야기</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_1.png" alt="게시판 설명 이미지">
+					</div>
+					<div class="text_box2">
+						<h3>1. 밀리패스 게시판 선택</h3>
+						<p><span>밀리패스 앱 메인의 밀리패스 게시판</span> 글 목록 또는 더보기 > 버튼 선택</p>
+					</div>
+
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_2.png" alt="게시판 설명 이미지" class="web_img">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_2_m.png" alt="게시판 설명 이미지" class="mobile_img">
+					</div>
+					<div class="text_box2 web_text">
+						<h3>2. 가족 통신의 글 확인</h3>
+						<p>우리 부대 소식과 부대원들이 자주 묻는 질문들을 확인하실 수 있어요.</p>
+					</div>
+					<div class="text_box mobile_text">
+						<h3>2. 우리 부대 질문/답변 및 자주 묻는 질문</h3>
+						<p><span>가족 통신의 글 확인우리끼리만 나누는</span>
+							<span>대화 게시판 글 확인. 다른회원은 확인 불가한</span>
+						우리 가족끼리의 글만 노출됩니다.</p>
+					</div>
+
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_3.png" alt="게시판 설명 이미지" class="web_img">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_3_m.png" alt="게시판 설명 이미지" class="mobile_img">
+					</div>
+					<div class="text_box2">
+						<h3>3. 댓글달기</h3>
+						<p>부대 관련 글에 댓글을 달아가며 소통하세요.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup16">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FA5C5C">
+					<img src="./assets/new_assets/images/banner/icon_banner17.png" class="mil_popup_title16" alt="지도 아이콘">
+					<h3>댓글로 나누는 가족통신</h3>
+				</div>
+
+				<div class="ct_info">
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_1.png" alt="게시판 설명 이미지">
+					</div>
+					<div class="text_box2">
+						<h3>1. 밀리패스 게시판 선택</h3>
+						<p><span>밀리패스 앱 메인의 밀리패스 게시판</span> 글 목록 또는 더보기 > 버튼 선택</p>
+					</div>
+
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_2_m.png" alt="게시판 설명 이미지">
+					</div>
+					<div class="text_box2 web_text">
+						<h3>2. 가족 통신의 글 확인</h3>
+						<p>우리끼리만 나누는 대화 게시판 글 확인.<br>다른회원은 확인 불가한 우리 가족끼리의 글만 노출됩니다.</p>
+					</div>
+					<div class="text_box mobile_text">
+						<h3>2. 우리 부대 질문/답변 및 자주 묻는 질문</h3>
+						<p><span>가족 통신의 글 확인우리끼리만 나누는</span>
+							<span>대화 게시판 글 확인. 다른회원은 확인 불가한</span>
+						우리 가족끼리의 글만 노출됩니다.</p>
+					</div>
+
+					<div class="row_max_1_img_box">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_3.png" alt="게시판 설명 이미지" class="web_img">
+						<img src="./assets/new_assets/images/temp/mili_notice_popup_temp_3_m.png" alt="게시판 설명 이미지" class="mobile_img">
+					</div>
+					<div class="text_box2">
+						<h3>3. 댓글달기</h3>
+						<p>부대 관련 글에 댓글을 달아가며 소통하세요.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup17">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FFFA83">
+					<img src="./assets/new_assets/images/banner/icon_banner18.png" class="mil_popup_title17" alt="밀리패스 아이콘">
+					<h3 style="color:#333; z-index: 1;">장병, 군무원, 예비역의 밀리패스 가입방법</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_1.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_2.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_3.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_4.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_5.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_6.png" alt="가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/mili_join_popup_temp_7.png" alt="가입방법 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup18">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FFC683">
+					<img src="./assets/new_assets/images/temp/icon_banner19_3.png" class="mil_popup_title18" alt="가족가입 아이콘">
+					<h3 style="color:#333;">장병, 군무원 가족의 밀리패스 가입방법</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_1.png" alt="가족 가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_2.png" alt="가족 가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_3.png" alt="가족 가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_4.png" alt="가족 가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_5.png" alt="가족 가입방법 설명 이미지">
+						<img src="./assets/new_assets/images/temp/fa_mili_join_popup_temp_6.png" alt="가족 가입방법 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup19">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#FFD363">
+					<img src="./assets/new_assets/images/banner/icon_banner20.png" class="mil_popup_title19" alt="가족가입 아이콘">
+					<h3 style="color:#333;">장병, 군무원 가족의 밀리패스 가입방법</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_1.png" alt="근무원 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_2.png" alt="근무원 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_3.png" alt="근무원 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_4.png" alt="근무원 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_5.png" alt="근무원 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene1_popup_temp_6.png" alt="근무원 혜택 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup20">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#BAF4C0">
+					<img src="./assets/new_assets/images/temp/bene2_popup_title.png" class="mil_popup_title20" alt="가족가입 아이콘">
+					<h3 style="color:#333;">예비역의 혜택 총정리!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_1.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_2.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_3.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_4.png" alt="예비역 혜택 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup21">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#4A4DC6">
+					<img src="./assets/new_assets/images/temp/bene3_popup_title.png" class="mil_popup_title21" alt="장병_근무원 가족가입 아이콘">
+					<h3><span style="color:#FFF27E">장병,군무원의 가족</span> 혜택 총정리!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/bane3_popup_temp_1.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_2.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_3.png" alt="예비역 혜택 설명 이미지">
+						<img src="./assets/new_assets/images/temp/bene2_popup_temp_4.png" alt="예비역 혜택 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup46">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#7ACAA8">
+					<img src="./assets/new_assets/images/banner/army_logo.png" class="mil_popup_title46" alt="육군 마크 이미">
+					<h3>육군 장병의 혜택 총정리!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_220.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_241.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_242.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_243.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_244.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_245.png" alt="밀리패 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup47">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#7794FD">
+					<img src="./assets/new_assets/images/banner/navy_logo.png" class="mil_popup_title47" alt="해군 마크 이미">
+					<h3>해군 장병의 혜택 총정리!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_220.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_241.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_242.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_243.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_244.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_245.png" alt="밀리패 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup48">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>군 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#F86D63">
+					<img src="./assets/new_assets/images/banner/marine_logo.png" class="mil_popup_title48" alt="해군 마크 이미">
+					<h3>해병대 장병의 혜택 총정리!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_220.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_241.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_242.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_243.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_244.png" alt="밀리패 설명 이미지">
+						<img src="./assets/new_assets/images/temp/01_milipass_popup_temp_245.png" alt="밀리패 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup31">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>제휴 서비스</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#3617ce">
+					<h3>SK텔레콤이 드리는 0 청년 군인 전용 혜택!!</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/sns_1_1.png" alt="밀리패스 설명 이미지">
+						<img src="./assets/new_assets/images/temp/sns_2_1.png" alt="밀리패스 설명 이미지">
+						<img src="./assets/new_assets/images/temp/sns3_1.png" alt="밀리패스 설명 이미지">
+						<img src="./assets/new_assets/images/temp/sns4_1.png" alt="밀리패스 설명 이미지">
+
+						<a href="https://blog.naver.com/PostList.naver?blogId=milipass_official&from=postList&categoryNo=8" class="popup_link_btn">
+							<span>더 많은 통신 혜택 확인하기!!</span>
+							<img src="./assets/new_assets/images/common/popup_link_btn.png" alt="팝업 링크">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_30">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#484F62">
+					<h3>밀리패스 가입 대상 회원 유형 총정리</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_30.png" alt="회원유형 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_23">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#353744">
+					<h3>가족정보 등록은 언제 어떻게 해야하죠?</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_23_1.png" alt="가족가입 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_23_2.png" alt="가족가입 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_23_3.png" alt="가족가입 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_24">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#5A81FA">
+					<h3>밀리패스 회원 가입이 안되시나요?</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_24_1.png" alt="가입안됨 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_24_2.png" alt="가입안됨 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_24_3.png" alt="가입안됨 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_24_4.png" alt="가입안됨 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_25">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#835EF3">
+					<h3>서비스별 문의처를 확인해 주세요.</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_25_1.png" alt="문의처 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_25_2.png" alt="문의처 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_25_3.png" alt="문의처 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_25_4.png" alt="문의처 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_25_5.png" alt="문의처 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_26">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#3E3EBB">
+					<h3>“에뮬레이터환경”이라는 팝업이 뜬다구요?</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_26_1.png" alt="실행오류 설명 이미지">
+						<!-- 이미지 수정요청 -->
+						<img src="./assets/new_assets/images/temp/w_sub_26_2.png" alt="실행오류 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_26_3.png" alt="실행오류 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_26_4.png" alt="실행오류 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_26_5.png" alt="실행오류 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_26_6.png" alt="실행오류 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_27">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#404040">
+					<h3>신분증에 등록된 사진을 변경하고 싶어요.</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_27_1.png" alt="사진변경 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_27_2.png" alt="사진변경 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_27_3.png" alt="사진변경 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_27_4.png" alt="사진변경 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_28">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#F86C63">
+					<h3>영외PX(군마트) 밀리패스 이용방법</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_28_1.png" alt="군마트 이용 설명 이미지">
+						<!-- 이미지 수정요청 -->
+						<img src="./assets/new_assets/images/temp/w_sub_28_2.png" alt="군마트 이용 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_28_3.png" alt="군마트 이용 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal_padding" id="popup_sub_29">
+			<div class="modal_wrap">
+				<div class="ct_title">
+					<h3>자주묻는 질문</h3>
+					<img src="./assets/new_assets/images/common/bt_close_b.svg" alt="닫기 버튼">
+				</div>
+
+				<div class="ct_header_banner" style="background-color:#5A81FA">
+					<h3>영외PX(군마트) 밀리패스 이용방법</h3>
+				</div>
+
+				<div class="default_ct_info">
+					<div class="default_img_box">
+						<img src="./assets/new_assets/images/temp/w_sub_29_1.png" alt="증명서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_29_2.png" alt="증명서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_29_3.png" alt="증명서 설명 이미지">
+						<img src="./assets/new_assets/images/temp/w_sub_29_4.png" alt="증명서 설명 이미지">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile_menu_modal">
+			<div class="mf_title_box">
+				<h3>전체 메뉴</h3>
+				<img src="./assets/new_assets/images/common/mobile_bt_close.png" alt="닫기 버튼">
+			</div>
+
+			<div class="menu_gird_box">
+				<div class="mobile_menu_items" id="m_army">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/army_mobile.png" alt="육군로고">
+							<span>육군 서비스 소개</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_navy">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/navy_mobile.png" alt="해군로고">
+							<span>해군 서비스 안내</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_marine">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/marine_mobile.png" alt="해병대로고">
+							<span>해병대 서비스 안내</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_service">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/milipass_mobile.png" alt="밀리패스 아이콘">
+							<span>서비스 소개</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_benefits">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/brand_mobile.png" alt="혜택 아이콘">
+							<span>혜택 안내</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_alliance">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/community_mobile.png" alt="제휴 아이콘">
+							<span>제휴 안내</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+
+				<div class="mobile_menu_items" id="m_sub_menu">
+					<a href="#">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/qna_mobile.png" alt="자주묻는 질문 아이콘">
+							<span>자주 묻는 질문</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+				
+				<div class="mobile_menu_items">
+					<a href="./konpass_inquiry.html">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/mail_mobile.png" alt="제휴 아이콘">
+							<span>제휴 문의</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+				
+				<div class="mobile_menu_items">
+					<a href="./konpass_notice1_list.html">
+						<div class="text_box">
+							<img src="./assets/new_assets/images/menu/info_mobile.png" alt="공지사항">
+							<span>공지사항</span>
+						</div>
+
+						<img src="./assets/new_assets/images/common/more_arrow_right.png" alt="오른쪽 화살표">
+					</a>
+				</div>
+			</div>
+
+			<div class="modal_footer">
+				<div class="mf_logo_box">
+					<span>(주)한국특수정보인증원</span>
+				</div>
+				<p>서울특별시 금천구 가산디지털2로 101<br>사업자등록번호 : 156-87-02715</p>
+				<h3>고객센터 <b>02-6941-1230</b></h3>
+				<p>(08:00 ~ 17:00 주말 및 공휴일 휴무)</p>
+
+				<p class="link_box">
+					<a href="#">회사 소개</a> <span class="cl_c2">I</span> <a href="#">KOnPASS</a>
+				</p>
+
+				<p><span class="cl_c2">COPYRIGHT© (주)한국특수정보인증원. All rights reserved.</span></p>
+
+				<div class="footer_absol_box">
+					<a href="https://blog.naver.com/milipass_official">
+						<img src="./assets/new_assets/images/menu/instargram.png" alt="인스타그램 로고">
+					</a>
+
+					<a href="https://www.instagram.com/milipass_official/">
+						<img src="./assets/new_assets/images/menu/naver_blog.png" alt="네이버 블로그">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer_padding">
+				<div class="footer_wrap">
+					<div class="logo_box">
+						<a href="#">
+							<img src="./assets/new_assets/images/common/footer_logo.png" alt="KSICA 로고">
+						</a>
+						<span>(주)한국특수정보인증원</span>
+					</div>
+					<div class="info_box">
+						<p class="cl_66">서울특별시 금천구 가산디지털2로 101(A동 11층 1104호, 한라원앤원타워) (주)한국특수정보인증원 <span>I</span><br>사업자등록번호 : 156-87-02715</p>
+						<h3>고객센터 <b>02-6941-1230</b> <span>(평일 08:00 ~ 17:00, 점심시간 11:30 ~ 13:00 주말 및 공휴일은 휴무입니다.)</span></h3>
+						<p class="cl_dd">COPYRIGHT© (주)한국특수정보인증원. All rights reserved.</p>
+					</div>
+				</div>
+				<div class="sns_link">
+					<a href="https://blog.naver.com/milipass_official" target="_blank"><img src="./assets/new_assets/images/menu/naver_blog.png" class="naver_img" alt="네이버 블로그 바로가기 아이콘"></a>
+					<a href="https://www.instagram.com/milipass_official/" target="_blank"><img src="./assets/new_assets/images/menu/instargram.png" alt="인스타그램 바로가기 아이콘"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./assets/new_assets/js/jquery-3.3.1.min.js"></script>
+	<script>
+	    //Keep track of last scroll
+	    var lastScroll = 0;
+		var hd_ht = $('header').innerHeight();
+		var ss_c = $(window).innerHeight() - $('header').innerHeight() - $('.mil_content_catal').innerHeight()
+		console.log("서브 스크롤 컨텐츠 높이 : " + ss_c)
+	    $(window).scroll(function(event){
+		      //Sets the current scroll position
+		      var st = $(this).scrollTop();
+
+		      // 서브스크롤 max-height
+		      if ($(window).scrollTop() > hd_ht) {
+		     	 $('.sub_scroll_cont').css({'max-height' : $(window).innerHeight() - $('.mil_content_catal').outerHeight() + "px"});
+		      }
+
+		      if ($(window).scrollTop() <= hd_ht) {
+		     	 $('.sub_scroll_cont').css({'height' : $(window).innerHeight() - $('.mil_content_catal').outerHeight(true) + "px"});
+		      }
+
+		      //Determines up-or-down scrolling
+		      if (st > lastScroll){
+		            //스크롤 다운
+		        	// console.log(hd_ht - (hd_ht - st));
+		        	// $('.sub_scroll_cont').height(ss_c + (hd_ht - (hd_ht - st)));
+		        $('.sub_scroll_cont').height(ss_c + st);
+		     	last_height = $('.sub_scroll_cont').height() - hd_ht;
+		          	// console.log($(window).scrollTop());
+		      }
+		      else {
+		             //스크롤 업
+		        if(st < hd_ht){
+		          	$('.sub_scroll_cont').height(ss_c + (hd_ht - (hd_ht - st)));
+		          	 	// $('.sub_scroll_cont').height(last_height + st);
+		        };
+		      };
+		      //Updates scroll position
+		      lastScroll = st;
+		});
+
+		function layOut_Default(){
+			var main_item_width = $('.main_scroll_cont').width()*0.3106;
+			var item_ht = main_item_width * 1.189;
+			var sub_ms_bn_ht = $('.sub_menu_mode > div > .sub_bn_common').width();
+
+			console.log("WINDOW width :" + $(window).innerWidth())
+
+			$('.main_scroll_cont > .gr_item').height(item_ht);
+			$('.main_scroll_cont > .gr_item').css('margin-bottom' , $('.gr_item').height() / 6.5);
+			$('.main_scroll_cont > .gr_main_box').css('margin-bottom' , $('.gr_item').height() / 6.5);
+			$('.main_scroll_cont > .gr_main_box').css('border-radius' , $('.gr_main_box').height() / 20);
+			$('.main_scroll_cont > .gr_item').css('border-radius' , $('.gr_item').height() / 20);
+
+			// 서브 스크롤 컨텐츠 height 211
+			var sub_banner_height = $('.sub_scroll_cont').width() * 0.866;
+			$('.sub_scroll_cont > div > .sub_bn_common').innerHeight(sub_banner_height);
+			$('.sub_scroll_cont > div > .sub_bn_common').css('border-radius' , sub_banner_height / 16);
+			
+			// 서브 스크롤 메뉴모드 컨텐츠 height
+			var sub_menu_mode_height = $('.sub_menu_mode').innerWidth() * 0.2285;
+			$('.sub_menu_mode > div > .sub_bn_common').innerHeight(sub_menu_mode_height);
+			$('.sub_menu_mode > div > .sub_bn_common').css('border-radius' , sub_menu_mode_height / 16);
+
+			// 서브 스크롤 height
+			var t = $('.mil_content_catal').outerHeight() + 1.5;
+			$('.sub_scroll_cont').css({"top": t , "position" : "sticky"});
+			$('.sub_scroll_cont').height($(window).innerHeight() - $('header').innerHeight() - $('.mil_content_catal').innerHeight());
+			if($(window).scrollTop() > 155){
+				$('.sub_scroll_cont').css({height: $(window).innerHeight() - $('header').innerHeight()})
+			}
+			// 1024px이하(타블릿 버전) 일때 배너 div사이즈
+			if(matchMedia("screen and (max-width:1024px)").matches){
+				var main_tablet_mode_default = $('.main_scroll_cont').width();
+				var main_tablet_mode_items_width = main_tablet_mode_default * 0.47
+				var main_tablet_mode_items_height = main_tablet_mode_items_width *1.16
+
+				var sub_bn_ht = $('.sub_scroll_cont').innerWidth() * 0.866;
+				var sub_ms_bn_ht = $('.sub_menu_mode').innerWidth() * 0.345;
+
+				$('.main_scroll_cont > .gr_item').height(main_tablet_mode_items_height)
+				$('.gr_item').css('margin-bottom' ,  main_tablet_mode_items_height / 7);
+				$('.gr_main_box').css('margin-bottom' , main_tablet_mode_items_height / 7);
+				$('.main_scroll_cont > .gr_item').css('border-radius' , main_tablet_mode_items_height / 20);
+
+				$('.sub_scroll_cont > div > .sub_bn_common').innerHeight(sub_bn_ht);
+				$('.sub_menu_mode > div > .sub_bn_common').innerHeight(sub_ms_bn_ht);
+			}
+
+			// 모바일일때
+			// 모바일일때
+			// 모바일일때
+			// 모바일일때
+			// 모바일일때
+			// 모바일일때
+			if(matchMedia("screen and (max-width:640px)").matches){
+				var mobile_main_gr_item_width = $('.main_scroll_cont').innerWidth();
+				var sub_ms_bn_ht = $('.sub_menu_mode').innerWidth();
+
+				$('.gr_item').height(mobile_main_gr_item_width * 0.46875);
+				$('.gr_item').css('margin-bottom' , mobile_main_gr_item_width * 0.03125);
+				$('.gr_main_box').css('margin-bottom' , mobile_main_gr_item_width * 0.03125);
+				$('.gr_item').css('border-radius' , $('.main_scroll_cont > .gr_main_box').width() / 32);
+				$('.main_scroll_cont > .gr_main_box').css('border-radius' , $('.gr_main_box').width() / 32);
+				$('.sub_menu_mode > div > .sub_bn_common').innerHeight(sub_ms_bn_ht * 0.36875);
+				$('.sub_menu_mode > div > .sub_bn_common').css('border-radius' , sub_ms_bn_ht / 26);
+			}
+
+			if(matchMedia("screen and (max-width:359px)").matches){
+				var mobile_main_gr_item_320width = $('.main_scroll_cont').width();
+				var sub_ms_bn_320ht = $('.sub_menu_mode').width();
+				console.log('320사이즈 일때 컨텐츠 넓이 = ' + $('.main_scroll_cont').width());
+
+				$('.gr_item').height(mobile_main_gr_item_320width * 0.46875);
+				$('.gr_item').css('margin-bottom' , mobile_main_gr_item_320width * 0.03125);
+				$('.gr_main_box').css('margin-bottom' , mobile_main_gr_item_320width * 0.03125);
+				$('.gr_item').css('border-radius' , $('.main_scroll_cont > .gr_main_box').width() / 32);
+				$('.main_scroll_cont > .gr_main_box').css('border-radius' , $('.gr_main_box').width() / 32);
+				$('.sub_menu_mode > div > .sub_bn_common').innerHeight(sub_ms_bn_320ht * 0.36875);
+				$('.sub_menu_mode > div > .sub_bn_common').css('border-radius' , sub_ms_bn_320ht / 26);
+			}
+		}
+
+		layOut_Default();
+
+		// resize 될때 배너 div사이즈
+		$(window).resize(function(){
+		  layOut_Default();
+	      //Keep track of last scroll
+	      var lastScroll = 0;
+		  var hd_ht = $('header').innerHeight();
+		  var ss_c = $('.sub_scroll_cont').height()
+		        //Sets the current scroll position
+		        var st = $(this).scrollTop();
+		        //Determines up-or-down scrolling
+		          if (st > lastScroll){
+		             //스크롤 다운
+		          	// console.log(hd_ht - (hd_ht - st));
+		          	// $('.sub_scroll_cont').height(ss_c + (hd_ht - (hd_ht - st)));
+		          	$('.sub_scroll_cont').height(ss_c + st);
+		          	last_height = $('.sub_scroll_cont').height();
+		          }
+		          else {
+		             //스크롤 업
+		          	 if(st < hd_ht){
+		          	 	last_height = $('.sub_scroll_cont').height();
+		          	 	$('.sub_scroll_cont').height(ss_c + (hd_ht - (hd_ht - st)));
+		          	 	// $('.sub_scroll_cont').height(last_height + st);
+		          	 };
+		          };
+		          //Updates scroll position
+		          lastScroll = st;
+		});
+
+		// 자주 묻는 질문 클릭 시
+		$('.fav_cart').on('click' , function(){
+			var sub_ms_bn_ht = $('.sub_menu_mode > div > .sub_bn_common').width();
+			$(this).css({color:'#fff'});
+			$('.main_scroll_cont').hide();
+			$('.sub_scroll_cont').removeClass('sub_scroll_cont').addClass('sub_menu_mode')
+			$('.sub_menu_mode').removeAttr("style");
+			layOut_Default();
+		});
+
+		// 모바일 팝업 닫기 클릭시
+		$('.mf_title_box > img').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+		});
+		// 모바일 메뉴 클릭시
+		$('.mobil_meue_box > img').on('click' , function(){
+			$('.popup_bg').fadeIn(600);
+			$('.mobile_menu_modal').animate({right:'0'} , 600);
+		});
+		// 모바일 육군 혜택 클릭시
+		$('#m_army').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(6)').trigger('click');
+		});
+		// 모바일 해병 혜택 클릭시
+		$('#m_navy').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(7)').trigger('click');
+		});
+		// 모바일 해병대 클릭시
+		$('#m_marine').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(8)').trigger('click');
+		});
+		// 모바일 서비 클릭시
+		$('#m_service').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(2)').trigger('click');
+		});
+		// 모바일 메뉴 혜택 클릭시
+		$('#m_marine').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(8)').trigger('click');
+		});
+		// 모바일 메뉴 혜택 클릭시
+		$('#m_benefits').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(3)').trigger('click');
+		});
+		// 모바일 메뉴 제휴 클릭시
+		$('#m_alliance').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:nth-child(4)').trigger('click');
+		});
+
+		// 모바일 메뉴 제휴 클릭시
+		$('#m_sub_menu').on('click' , function(){
+			$('.popup_bg').fadeOut(600);
+			$('.mobile_menu_modal').animate({right:'-100%'} , 600);
+			$('.mil_content_catal > ul > li:last-child').trigger('click');
+		});
+		
+/*************************************************************************************************************
+ * 
+ *  	클라스명 - 배너 내용 / 팝업 이름
+ * 
+		.skt - skt 배너 / popup_m2();
+		.army - 육군 서비스 배너 / popup46();
+		.navy - 해병 서비스 배너 / popup47();
+		.marine - 해병대 서비스 / 배너 popup48();
+		.chatbot - 챗봇 서비스 / 배너 popup2();
+		.ybm - YBM / 배너 popup3();
+		.uniform - 피복 서비스 배너 / popup4();
+		.meal_ticket - 식권 서비스 배너 / popup5();
+		.vacation - 휴가증 배너 / popup6();
+		.drive - 운전 경력 배너 / popup7();
+		.bus - 버스 후급증 배너 / popup8();
+		.salary - 급여 명세 배너 / popup9();
+		.certification - 신분 인증 배너 / popup10();
+		.train - 기차 후급증 배너 / popup11();
+		.glasses - 안경 바우처 배너 / popup12();
+		.shopping - 인터넷 최저가 배너 / popup13();
+		.business_trip - 출장 확인서 배너 / popup14();
+		.secret - 우리부대 궁금한 이야기 배너 / popup15();
+		.comunity - 우리가족 속닥 속닥 배너 / popup16();
+		.user_join - 밀리패스 이렇게 가입 배너 / popup17();
+		.family_join - 밀리패스 가족 가입 배너 / popup18();
+		.military_personnel - 군무원 혜택 배너 / popup19();
+		.reserve_service - 예비역 혜택 배너 / popup20();
+		.soldier_family - 장병 가족 혜택 배너 / popup21();
+
+**************************************************************************************************************/
+
+		// 카탈로그 클릭시 (전체)
+		$('.mil_content_catal > ul > li:first-child').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont').find('.gr_item').show();
+			$('.main_scroll_cont > .gr_main_box').show();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 서비스 소개
+		$('.mil_content_catal > ul > li:nth-child(2)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').show();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.army , .navy , .marine , .chatbot , .meal_ticket , .vacation , .drive , .bus , .salary , .certification , .train , .glasses , .business_trip , .secret , .comunity , .user_join , .family_join , .military_personnel , .reserve_service , .soldier_family').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 혜택
+		$('.mil_content_catal > ul > li:nth-child(3)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.skt , .ybm , .uniform , .shopping').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 제휴
+		$('.mil_content_catal > ul > li:nth-child(4)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.ybm').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 뉴스
+		$('.mil_content_catal > ul > li:nth-child(5)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			// $('.main_scroll_cont').find('').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 육군
+		$('.mil_content_catal > ul > li:nth-child(6)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.army , .chatbot , .meal_ticket , .uniform , .vacation , .drive , .bus , .salary , .certification , .train .glasses , .business_trip , .secret , .comunity , .user_join , .family_join , .military_personnel , .reserve_service , .soldier_family').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 해군
+		$('.mil_content_catal > ul > li:nth-child(7)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.navy , .vacation , .drive , .bus , .salary , .certification, .train , .business_trip , .secret , .comunity , .user_join , .family_join , .military_personnel , .reserve_service , .soldier_family').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		// 해병대
+		$('.mil_content_catal > ul > li:nth-child(8)').on('click' , function(){
+			$('.main_scroll_cont').show();
+			$('.main_scroll_cont > .gr_item').hide();
+			$('.main_scroll_cont > .gr_main_box').hide();
+			$('.sub_menu_mode').removeClass('sub_menu_mode').addClass('sub_scroll_cont');
+			$('.main_scroll_cont').find('.marine , .vacation , .drive , .bus , .salary , .certification, .train , .business_trip , .secret , .comunity , .user_join , .family_join , .military_personnel , .reserve_service , .soldier_family').show();
+			$('.fav_cart').removeAttr("style");
+		});
+
+		$('.mil_content_catal > ul > li').on('click' , function(){
+			$(this).siblings().removeClass('select_cart');
+			$(this).addClass('select_cart');
+			$(this).siblings('.sols').addClass('sol_cart')
+			if($(this).hasClass('sols')){
+				$(this).removeClass('sol_cart')
+			}
+			console.log($('.gr_item').width());
+			layOut_Default();
+		});
+
+		// 배너 클릭시
+
+		function popup46(n){
+			$('.popup_bg2').fadeIn(600);
+			$('#'+n).show();
+		}
+
+		function popup47(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup47').show();
+		}
+
+		function popup48(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup48').show();
+		}
+
+		function popup_m2(){
+			$('.popup_bg2').fadeIn(600);
+			$('#first_time_mlipass').show();
+		}
+
+		function popup2(id){
+			$('.popup_bg2').fadeIn(600);
+			$('#'+id).show();
+			
+		}
+
+		function popup3(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup3').show();
+		}
+
+		function popup4(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup4').show();
+		}
+
+		function popup5(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup5').show();
+		}
+
+		function popup6(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup6').show();
+		}
+
+		function popup7(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup7').show();
+		}
+
+		function popup8(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup8').show();
+		}
+
+		function popup9(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup9').show();
+		}
+
+		function popup10(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup10').show();
+		}
+
+		function popup11(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup11').show();
+		}
+
+		function popup12(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup12').show();
+		}
+
+		function popup13(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup13').show();
+		}
+
+		function popup14(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup14').show();
+		}
+
+		function popup15(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup15').show();
+		}
+
+		function popup16(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup16').show();
+		}
+
+		function popup17(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup17').show();
+		}
+
+		function popup18(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup18').show();
+		}
+
+		function popup19(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup19').show();
+		}
+
+		function popup20(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup20').show();
+		}
+
+		function popup21(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup21').show();
+		}
+
+		function popup31(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup31').show();
+		}
+
+		function popup_sub_30(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_30').show();
+		}
+
+		function popup_sub_23(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_23').show();
+		}
+
+		function popup_sub_24(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_24').show();
+		}
+
+		function popup_sub_25(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_25').show();
+		}
+
+		function popup_sub_26(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_26').show();
+		}
+
+		function popup_sub_27(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_27').show();
+		}
+
+		function popup_sub_28(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_28').show();
+		}
+
+		function popup_sub_29(){
+			$('.popup_bg2').fadeIn(600);
+			$('#popup_sub_29').show();
+		}
+
+		$('.ct_title > img').on('click' , function(){
+			// $('body').removeClass('fixed');
+			$('#wrap').off('scroll touchmove mousewheel');
+			$('.popup_bg2').fadeOut(600);
+			$('.modal_padding').fadeOut(600);
+		});
+
+		// $('.sol_cart').on('click' , function(){
+		// 	$(this).removeClass('sol_cart')
+		// });
+
+	</script>
+</body>
